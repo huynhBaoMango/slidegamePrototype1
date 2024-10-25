@@ -4077,8 +4077,8 @@ MonoBehaviour:
   unitParent: {fileID: 164699955}
   heart: 5
   score: 0
-  unitTimeToMove: 13
-  defaultUnitTimeToMove: 13
+  unitTimeToMove: 10
+  defaultUnitTimeToMove: 10
 --- !u!1 &1023625018
 GameObject:
   m_ObjectHideFlags: 0
