@@ -19,7 +19,7 @@ public class EnemyManager : MonoBehaviour
 
     public void StartGame()
     {
-        waveDelay = defaultUnitTimeToMove;
+        waveDelay = defaultWaveDelay;
         unitTimeToMove = defaultUnitTimeToMove;
         InvokeRepeating("SpawnWave", 3f, waveDelay);
     }

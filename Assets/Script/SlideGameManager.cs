@@ -221,7 +221,10 @@ public class SlideGameManager : MonoBehaviour
             enemyManager.unitTimeToMove -= enemyManager.unitTimeToMove * enemyManager.percentTime;
         }
 
-        FindObjectOfType<DebugPanel>().UpdateText();
+        if(FindObjectOfType<DebugPanel>() != null)
+        {
+            FindObjectOfType<DebugPanel>().UpdateText();
+        }
     }
 
     public void TakeDamageManager(float damage)
